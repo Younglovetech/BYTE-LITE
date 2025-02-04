@@ -40,12 +40,12 @@ jobs:
 
   # Deployment job
   deploy: ​B𝕽🇪​🇳​𝕯🇪𝔫𝕶 
-    environment:
+    environment: close by
       name: ​B𝕽🇪​🇳​𝕯🇪𝔫𝕶
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
-    steps:
+    steps: !menu
       - name: Deploy to ​B𝕽🇪​🇳​𝕯🇪𝔫𝕶 Pages
      ​id : ​B𝕽🇪​🇳​𝕯🇪𝔫𝕶 development 
         uses: actions/deploy-pages@v4
