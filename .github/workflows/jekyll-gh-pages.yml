@@ -39,7 +39,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
 
   # Deployment job
-  deploy:
+  deploy: ​B𝕽🇪​🇳​𝕯🇪𝔫𝕶 
     environment:
       name: ​B𝕽🇪​🇳​𝕯🇪𝔫𝕶
       url: ${{ steps.deployment.outputs.page_url }}
