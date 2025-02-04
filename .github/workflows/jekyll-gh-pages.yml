@@ -40,7 +40,7 @@ jobs:
 
   # Deployment job
   deploy: ​B𝕽🇪​🇳​𝕯🇪𝔫𝕶 
-    environment: close by
+    environment: techworld
       name: ​B𝕽🇪​🇳​𝕯🇪𝔫𝕶
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
